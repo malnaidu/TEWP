@@ -1,5 +1,5 @@
 {
-  "name": "react-base",
+  "name": "tewp",
   "version": "0.2.0",
   "description": "a base project for react",
   "scripts": {
@@ -60,7 +60,7 @@
     "node-sass": "^3.4.2",
     "normalize.css": "^3.0.3",
     "postcss-loader": "^0.9.1",
-    "react": "15.0.2",
+    "react": "^15.0.2",
     "react-dom": "15.0.2",
     "react-hot-loader": "^3.0.0-beta.2",
     "react-redux": "^4.4.0",
