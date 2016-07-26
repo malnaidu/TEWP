@@ -6,6 +6,7 @@ export default class App extends Component {
     return (
       <div className={styles.container}>
         {this.props.children}
+        hi
       </div>
     );
   }
