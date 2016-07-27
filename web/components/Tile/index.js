@@ -1,23 +1,9 @@
 import React, {Component, PropTypes} from 'react';
 import styles from './Tile.scss';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-
-import { routeToPage } from '../../actions/tile';
+import { Link } from 'react-router';
 
 export default class Tile extends Component {
-  constructor(props) {
-    super(props)
-    this.handleLink=this.handleLink.bind(this)
-    console.log(actionCreators);
-  }
-  handleLink() {
-    console.log("click to link");
-    console.log(this.props.linkRoute);
-    routeToPage(this.props.linkRoute)
-  }
   render() {
-    console.log(this.props);
     return (
         <div>
             <div id="leftPannel">
@@ -34,9 +20,9 @@ export default class Tile extends Component {
                 </div>
 
                 <div id="linkRoute">
-                    <a onClick={this.handleLink}>
+                    <Link to={this.props.linkRoute}>
                         Show All
-                    </a>
+                    </Link>
                 </div>
             </div>
 
@@ -55,20 +41,5 @@ Tile.propTypes = {
     subHeader: PropTypes.string,
     description: PropTypes.string,
     imageUrl: PropTypes.string,
-    linkRoute: PropTypes.string,
-    actions: PropTypes.shape({
-        routeToPage: PropTypes.func
-    }),
+    linkRoute: PropTypes.string
 };
-
-// //function mapStateToProps(state) {
-//     return state 
-// }
-
-// function mapDispatchToProps(dispatch) {
-//     return {
-//         actions: bindActionCreators(actionCreators, dispatch)
-//     };
-// }
-
-export default (Tile);

@@ -6,13 +6,12 @@ export default class App extends Component {
   render() {
     return (
       <div className={styles.container}>
-     	 <Tile header="Hardware" 
-	      		subHeader= "Featured Laptop"
-	      		discription="Macbook Pro"
-	      		imageUrl="url"
-	      		linkRoute="computers">
-    	 </Tile>
-
+       	 <Tile header="Hardware" 
+  	      		 subHeader= "Featured Laptop"
+  	      		 discription="Macbook Pro"
+  	      		 imageUrl="url"
+  	      		 linkRoute="/computers">
+      	 </Tile>
       </div>
     );
   }
