@@ -5,29 +5,30 @@ import { Link } from 'react-router';
 export default class Tile extends Component {
   render() {
     return (
-        <div>
-            <div id="leftPannel">
-                <div id="header">
+        <div className={styles.container}>
+            <div id="leftPanel">
+                <div id="header" className={styles.header}>
                     {this.props.header}
                 </div>
 
-                <div id="subHeader">
+                <div id="subHeader" className={styles.subHeader}>
                     {this.props.subHeader}
                 </div>
 
-                <div id="description">
+                <div id="description" className={styles.description}>
                     {this.props.description}  
                 </div>
 
-                <div id="linkRoute">
+                <div id="linkRoute" className={styles.linkRoute}>
                     <Link to={this.props.linkRoute}>
                         Show All
                     </Link>
                 </div>
             </div>
 
-            <div id="rightPannel">
+            <div id="rightPanel">
                 <div id="imageUrl">
+                    <img src={this.props.imageUrl} />
                 </div>
             </div>
         </div>

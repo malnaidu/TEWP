@@ -1,0 +1,24 @@
+@import "colors";
+
+.container {
+	width: 650px;
+	height: 225px;
+	border-radius: 15px;
+	border: 1px solid primary(zillowGreen);
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header {
+	font-size: 22px;
+	font-weight: 900;
+	color: #555;
+}
+
+.subHeader {
+}
+
+.linkRoute {
+	padding-top:50px;
+}

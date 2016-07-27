@@ -12,12 +12,25 @@ export default class App extends Component {
           <span className={styles.subHeaderText}>Tech Request</span>
         </div>
         
-         <Tile  header="Hardware" 
-                subHeader= "Featured Laptop"
-                discription="Macbook Pro"
-                imageUrl="url"
-                linkRoute="/computers">
-         </Tile>
+        <div className={styles.content}>
+            <div className={styles.tileContainer}>
+               <Tile  header="Hardware" 
+                      subHeader= "Featured Laptop"
+                      description="Macbook Pro 15 inch with retina display"
+                      imageUrl="http://i.imgur.com/u5XPlQd.png"
+                      linkRoute="/computers">
+               </Tile>
+            </div>
+
+            <div className={styles.tileContainer}>
+               <Tile  header="Software" 
+                      subHeader= "Featured Software"
+                      description="Sketch 3 Interface Design App"
+                      imageUrl="http://i.imgur.com/KAVydLd.png"
+                      linkRoute="/software">
+               </Tile>
+            </div>
+        </div>
       </div>
     );
   }
