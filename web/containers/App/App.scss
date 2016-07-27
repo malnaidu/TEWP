@@ -1,4 +1,20 @@
+@import "colors";
+
 .container {
   width: 100%;
   height: 100%;
 }
+
+.subHeader {
+	height: 140px;
+	width: 100%;
+	background-image: url("../../images/zillowBackground.png");
+	display: flex;
+}
+
+.subHeaderText {
+	color: primary(zillowGreen);
+	margin: auto;
+	font-size: 48px;
+}
+

@@ -15,7 +15,9 @@ $primary: (
   red: red,
   white: white,
   gray: gray,
-  badass: #bada55
+  badass: #bada55,
+  zillowBlue: #0074E4,
+  zillowGreen: #74C005
 );
 
 @function primary($key) {

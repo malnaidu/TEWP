@@ -1,0 +1,81 @@
+@import "colors";
+
+.container {
+	background: primary(zillowBlue);
+	height: 150px;
+}
+
+.zillowLogo {
+	position: fixed;
+	left: 50px;
+	top: 0px;
+	background: white;
+	height: 170px;
+	width: 400px;
+	border-radius: 0px 0px 15px 15px;
+	border: 2px solid #ddd;
+	border-top: none;
+}
+
+.topText {
+	color: primary(zillowBlue);
+	margin: 20px 40px 10px 40px;
+	border-bottom: 1px solid primary(zillowBlue);
+}
+
+.zillowBrand {
+	font-weight: 900;
+	font-size: 58px;
+	padding-right: 10px;
+}
+
+.groupText {
+	font-size: 48px;
+	font-weight: 100;
+}
+
+
+.bottomText {
+	color: primary(zillowBlue);
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 900;
+	margin-left: 163px;
+	letter-spacing: 5px;
+}
+
+.search {
+	position: fixed;
+	top: 80px;
+	right: 10px;
+}
+
+.searchInput {
+	width: 700px;
+	font-size: 32px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	color: primary(zillowGreen);
+}
+
+.searchInput::placeholder {
+	color: primary(zillowGreen);
+}
+
+.navLinks {
+	position: fixed;
+	color: white;
+	top: 5px;
+	right: 5px;
+	font-size: 18px;
+}
+
+.greeting {
+	padding-right:20px;
+	border-right: 1px solid white;
+}
+
+.links {
+	padding: 5px;
+}
