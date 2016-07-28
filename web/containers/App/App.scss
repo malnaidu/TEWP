@@ -10,20 +10,32 @@
 	justify-content: space-around;
 }
 
+
 .subHeader {
-	height: 140px;
+	height: 130px;
 	width: 100%;
 	background-image: url("../../images/zillowBackground.png");
 	display: flex;
 }
 
 .subHeaderText {
-	color: white;
+	color: #74C005;
 	margin: auto;
-	font-size: 48px;
+	font-size: 40px;
 }
 
 .tileContainer {
-	margin: 20px;
+	margin: 30px;
 }
+
+.content2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.longTileContainer {
+	margin: 200px;
+}
+
+
 

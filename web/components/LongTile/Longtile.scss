@@ -1,8 +1,8 @@
 @import "colors";
 
 .container {
-	width: 600;
-	height: 300px;
+	width: 1273px;
+	height: 206px;
 	border-radius: 15px;
 	border: 1px solid #777;
 	padding: 10px;
@@ -10,13 +10,10 @@
 	justify-content: space-between;
 }
 
-.header {
+.bottomHeader {
 	font-size: 22px;
 	font-weight: 900;
 	color: #555;
-}
-
-.subHeader {
 }
 
 .linkRoute {

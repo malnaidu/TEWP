@@ -7,52 +7,32 @@
 
 .zillowLogo {
 	position: absolute;
-	left: 50px;
+	left: 80px;
 	top: 0px;
 	background: white;
-	height: 170px;
-	width: 400px;
+	height: 180px;
+	width: 370px;
 	border-radius: 0px 0px 15px 15px;
 	border: 2px solid #ddd;
 	border-top: none;
 }
 
-.topText {
-	color: primary(zillowBlue);
-	margin: 20px 40px 10px 40px;
-	border-bottom: 1px solid primary(zillowBlue);
-}
-
-.zillowBrand {
-	font-weight: 900;
-	font-size: 58px;
-	padding-right: 10px;
-}
-
-.groupText {
-	font-size: 48px;
-	font-weight: 100;
-}
-
-
-.bottomText {
-	color: primary(zillowBlue);
-	margin: 0 auto;
-	font-size: 30px;
-	font-weight: 900;
-	margin-left: 163px;
-	letter-spacing: 5px;
+.logoPosition {
+	position: absolute;
+	left: 25px;
+	top: 40px;
 }
 
 .search {
 	position: absolute;
-	top: 80px;
-	right: 10px;
+	top: 50px;
+	right: 500px;
 }
 
 .searchInput {
-	width: 700px;
-	font-size: 32px;
+	width: 750px;
+	font-size: 30px;
+	font-style: italic;
 	border-radius: 5px;
 	border: 1px solid #ddd;
 	padding: 5px;
