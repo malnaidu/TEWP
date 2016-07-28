@@ -36,7 +36,10 @@ export default class App extends Component {
 
         <div className={style.content2}>
           <div className={styles.LongTileContainer}>
-            <LongTile bottomHeader="Accessories"></LongTile>
+            <LongTile bottomHeader="Accessories"
+                      imageUrl="http://i.imgur.com/KAVydLd.png"
+                      linkRoute="/accessories">
+            </LongTile>
           </div>
         </div>
       </div>
