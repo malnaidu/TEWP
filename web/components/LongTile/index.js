@@ -13,7 +13,7 @@ export default class LongTile extends Component {
 					<div id="imageUrl" className={styles.imageUrl}>
 						{this.props.imageUrl}
 					</div>
-					<div id="linkRoute" className={style.linkRoute}>
+					<div id="linkRoute" className={styles.linkRoute}>
 						<Link to={this.props.linkRoute}>
 							Show All
 						</Link>
@@ -24,7 +24,7 @@ export default class LongTile extends Component {
 					<div id="imageUrl" className={styles.bottomHeader}>
 						{this.props.bottomHeader}
 					</div>
-					<div id="linkRoute" className={style.linkRoute}>
+					<div id="linkRoute" className={styles.linkRoute}>
 						<Link to={this.props.linkRoute}>
 							Show All
 						</Link>
@@ -35,8 +35,8 @@ export default class LongTile extends Component {
 	}
 }
 
-Tile.propTypes = {
-		bottomHeader: PropTypes.string,
-		imageUrl: PropTypes.string,
-		linkRoute: PropTypes.string
+LongTile.propTypes = {
+	bottomHeader: PropTypes.string,
+	imageUrl: PropTypes.string,
+	linkRoute: PropTypes.string
 }; 
