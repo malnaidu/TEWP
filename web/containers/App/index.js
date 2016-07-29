@@ -3,6 +3,7 @@ import styles from './App.scss';
 import Navbar from '../../components/Navbar';
 import Tile from '../../components/Tile';
 import LongTile from '../../components/LongTile';
+import Footer from '../../components/Footer';
 
 export default class App extends Component {
   render() {
@@ -27,19 +28,32 @@ export default class App extends Component {
             <div className={styles.tileContainer}>
                <Tile  header="Software" 
                       subHeader= "Featured Software"
-                      description="Sketch 3 Interface Design App"
+                      description="Sketch 3"
+                      description2="Interface Design App"
                       imageUrl="http://i.imgur.com/KAVydLd.png"
                       linkRoute="/software">
                </Tile>
             </div>
         </div>
 
-        <div className={styles.content2}>
+        <div className={styles.content}>
           <div className={styles.LongTileContainer}>
-            <LongTile bottomHeader="Accessories"
-                      imageUrl="http://i.imgur.com/KAVydLd.png"
-                      linkRoute="/accessories">
+            <LongTile bottomHeader1="Accessories"
+                      bottomHeader2="Mobile"
+                      imageUrl="https://i.imgur.com/ppLC6Y1.png"
+                      itemName="Keyboards"
+                      imageUrl2="https://i.imgur.com/zdcgRij.png"
+                      itemName2="Mouse"
+                      imageUrl3="https://i.imgur.com/toM1cyQ.png"
+                      itemName3="Mifi"
+                      imageUrl4="https://i.imgur.com/0wfenGQ.jpg"
+                      itemName4="Tablet"
+                      linkRoute="/accessories"
+                      linkRoute2="/Mobile">
             </LongTile>
+            <div className={styles.footerContainer}>
+              <Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>
+            </div>
           </div>
         </div>
       </div>

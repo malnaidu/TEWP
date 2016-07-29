@@ -19,6 +19,10 @@ export default class Tile extends Component {
                     {this.props.description}  
                 </div>
 
+                <div id="description2" className={styles.description2}>
+                    {this.props.description2}  
+                </div>
+
                 <div id="linkRoute" className={styles.linkRoute}>
                     <Link to={this.props.linkRoute}>
                         Show All
@@ -41,6 +45,7 @@ Tile.propTypes = {
     header: PropTypes.string,
     subHeader: PropTypes.string,
     description: PropTypes.string,
+    description2: PropTypes.string,
     imageUrl: PropTypes.string,
     linkRoute: PropTypes.string
 };

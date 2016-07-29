@@ -7,7 +7,7 @@ export default class Navbar extends Component {
 	<div id="container" className={styles.container}>
 		<div id="zillowLogo" className={styles.zillowLogo}>
 			<div id="logoPosition" className={styles.logoPosition}>
-				<img src="https://i.imgur.com/kHGryWF.png" alt= "Zillow Group" width="310" height="100"/>
+				<img src="https://i.imgur.com/J9DVrvQ.png" alt= "Zillow Group" width="600" height="65"/>
 			</div>
 
 			<div id="search" className={styles.search}>

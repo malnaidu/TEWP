@@ -14,12 +14,12 @@
 .subHeader {
 	height: 130px;
 	width: 100%;
-	background-image: url("../../images/zillowBackground.png");
+	background-image: url("../../images/zillowbackground.png");
 	display: flex;
 }
 
 .subHeaderText {
-	color: #74C005;
+	color: white;
 	margin: auto;
 	font-size: 40px;
 }
@@ -28,14 +28,11 @@
 	margin: 30px;
 }
 
-.content2 {
-	display: flex;
-	justify-content: space-around;
-}
 
 .longTileContainer {
 	margin: 200px;
 }
 
-
-
+.footerContainer {
+	margin: 30px;
+}
