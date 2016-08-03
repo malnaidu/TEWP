@@ -1,23 +1,51 @@
 @import "colors";
 
-.navPosition{
-	position: absolute;
-	left: 20px;
-	top: 40px;
+.position {
+	margin: 40px;
 }
+
 .catagory {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #1B5098;
 }
 
 .subText {
-	font-size: 15px;
-	color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	color: #1B5098;
 }
 
 .linkText {
 	font-size: 15px;
-	color: #959595;
+	color: #1B5098;
 }
 
+a:link {
+    color: #1B5098;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #1B5098;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #1B5098;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.lineBreak {
+	padding-bottom: 10px;
+}
+
+.lineBreak2 {
+	padding-bottom: 5px;
+}

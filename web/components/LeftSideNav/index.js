@@ -5,67 +5,75 @@ import { Link } from 'react-router';
 export default class LeftSideNav extends Component { 
 	render() {
 		return (
-			<div id="mySidenav" class="sidenav">
+			<div id="position" className={styles.position}>
 				<div id="catagory" className={styles.catagory}>
 					{this.props.catagory}
-	  				<a>Shop Catagory</a>
+	  				<a href="#" target="_blank">Shop Catagory</a>
+	  				<div id="lineBreak" className={styles.lineBreak}/>
 	  			</div>
 
 	  			<div id="subText" className={styles.subText}>
 	  				{this.props.subText}
-	  				<a>All Computers</a>
+	  				<a href="#" target="_blank">All Computers</a>
+	  				<div id="lineBreak2" className={styles.lineBreak2}/>
 	  			</div>
 
 	  			<div id="linkText" className={styles.linkText}>
 	  				{this.props.linkText}
-	  				<a>MacBooks</a>
-	  				<br/>
-	  				<a>PC Laptops</a>
-	  				<br/>
-	  				<a>Desktops</a>
-	  				<br/>
+	  				<a href="#" target="_blank">MacBooks</a>
+	  				<div id="lineBreak" className={styles.lineBreak}/>
+	  				<a href="#" target="_blank">PC Laptops</a>
+	  				<div id="lineBreak" className={styles.lineBreak}/>
+	  				<a href="#" target="_blank">Desktops</a>
+	  				<div id="lineBreak" className={styles.lineBreak}/>
+
 				</div>
 
 				<div id="subText" className={styles.subText}>
 					{this.props.subText}
-					<a>All Software</a>
+					<a href="#" target="_blank">All Software</a>
+					<div id="lineBreak2" className={styles.lineBreak2}/>
 				</div>
 
 				<div id="linkText" className={styles.linkText}>
 					{this.props.linkText}
-					<a>Microsoft</a>
-					<br/>
-					<a>Adobe</a>
-					<br/>
-					<a>Apple</a>
+					<a href="#" target="_blank">Microsoft</a>
+					<div id="lineBreak" className={styles.lineBreak}/>
+					<a href="#" target="_blank">Adobe</a>
+					<div id="lineBreak" className={styles.lineBreak}/>
+					<a href="#" target="_blank">Apple</a>
+					<div id="lineBreak" className={styles.lineBreak}/>
 				</div>
 
 				<div id="subText" className={styles.subText}>
 					{this.props.subText}
-					<a>All Accessories</a>
+					<a href="#" target="_blank">All Accessories</a>
+					<div id="lineBreak2" className={styles.lineBreak2}/>
 				</div>
 
 				<div id="linkText" className={styles.linkText}>
 					{this.props.linkText}
-						<a>Keyboards</a>
-						<br/>
-						<a>Mouse</a>
-						<br/>
-						<a>Headphones</a>
+						<a href="#" target="_blank">Keyboards</a>
+						<div id="lineBreak" className={styles.lineBreak}/>
+						<a href="#" target="_blank">Mouse</a>
+						<div id="lineBreak" className={styles.lineBreak}/>
+						<a href="#" target="_blank">Headphones</a>
+						<div id="lineBreak" className={styles.lineBreak}/>
 				</div>
 
 				<div id="subText" className={styles.subText}>
 					{this.props.subText}
-					<a>All Mobile</a>
+					<a href="#" target="_blank">All Mobile</a>
+					<div id="lineBreak2" className={styles.lineBreak2}/>
 				</div>
 
 				<div id="linkText" className={styles.linkText}>
 					{this.props.linkText}
-					<a>Mifi</a>
-					<br/>
-					<a>Tablet</a>
-					<br/>
-					<a>iPhones</a>
+					<a href="#" target="_blank">Mifi</a>
+					<div id="lineBreak" className={styles.lineBreak}/>
+					<a href="#" target="_blank">Tablet</a>
+					<div id="lineBreak" className={styles.lineBreak}/>
+					<a href="#" target="_blank">iPhones</a>
 				</div>
 			</div>
 		);
