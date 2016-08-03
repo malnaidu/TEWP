@@ -47,5 +47,5 @@ Tile.propTypes = {
     description: PropTypes.string,
     description2: PropTypes.string,
     imageUrl: PropTypes.string,
-    linkRoute: PropTypes.string
+    linkRoute: PropTypes.string,
 };

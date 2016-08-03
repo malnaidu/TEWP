@@ -39,17 +39,18 @@ export default class App extends Component {
         <div className={styles.content}>
           <div className={styles.LongTileContainer}>
             <LongTile bottomHeader1="Accessories"
-                      bottomHeader2="Mobile"
                       imageUrl="https://i.imgur.com/ppLC6Y1.png"
                       itemName="Keyboards"
                       imageUrl2="https://i.imgur.com/zdcgRij.png"
                       itemName2="Mouse"
+                      linkRoute="/accessories"
+
+                      bottomHeader2="Mobile"
                       imageUrl3="https://i.imgur.com/toM1cyQ.png"
                       itemName3="Mifi"
                       imageUrl4="https://i.imgur.com/0wfenGQ.jpg"
                       itemName4="Tablet"
-                      linkRoute="/accessories"
-                      linkRoute2="/Mobile">
+                      linkRoute2="/mobile">
             </LongTile>
             <div className={styles.footerContainer}>
               <Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>
