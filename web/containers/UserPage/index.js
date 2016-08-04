@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import styles from './UserPage.scss';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
@@ -7,7 +8,6 @@ export default class UserPage extends Component {
   	return (
     	<div className={styles.container}>
     		<Navbar/>
-        <Footer/>
     	</div>
     );
   }

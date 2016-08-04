@@ -17,7 +17,7 @@ export default class App extends Component {
         
         <div className={styles.content}>
             <div className={styles.tileContainer}>
-               <Tile  header="Hardware" 
+               <Tile  header="Computers" 
                       subHeader= "Featured Laptop"
                       description="Macbook Pro 15 inch with retina display"
                       imageUrl="http://i.imgur.com/u5XPlQd.png"
@@ -44,7 +44,6 @@ export default class App extends Component {
                       imageUrl2="https://i.imgur.com/zdcgRij.png"
                       itemName2="Mouse"
                       linkRoute="/accessories"
-
                       bottomHeader2="Mobile"
                       imageUrl3="https://i.imgur.com/toM1cyQ.png"
                       itemName3="Mifi"
@@ -53,6 +52,7 @@ export default class App extends Component {
                       linkRoute2="/mobile">
             </LongTile>
             <div className={styles.footerContainer}>
+            <hr/>
               <Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>
             </div>
           </div>
