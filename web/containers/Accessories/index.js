@@ -5,18 +5,19 @@ import Footer from '../../components/Footer';
 import LeftSideNav from '../../components/LeftSideNav';
 
 export default class Accessories extends Component {
-  render() {
-  	return (
-    	<div className={styles.container}>
-   			<Navbar/>
+	render() {
+		return (
+			<div className={styles.container}>
+				<Navbar/>
+					<div className={styles.navContainer}>
+						<LeftSideNav/>
+							<div className={styles.centerContainer}>
+							</div>
+					</div>
 
-        <div className={styles.navContainer}>
-          <LeftSideNav>
-          </LeftSideNav>
-        </div>
-      <hr/>
-      <Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>
-    	</div>
-    );
-  }
+				<hr/>
+				<Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>
+			</div>
+		);
+	}
 }

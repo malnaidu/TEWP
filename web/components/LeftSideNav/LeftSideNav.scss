@@ -1,43 +1,42 @@
 @import "colors";
 
 .position {
-	margin: 40px;
+    margin-left: 60px;
 }
 
 .catagory {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
-	color: #1B5098;
 }
 
 .subText {
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: bold;
-	color: #1B5098;
+	color: #4A4A4A;
 }
 
 .linkText {
-	font-size: 15px;
-	color: #1B5098;
+	font-size: 13px;
+	color: #4A4A4A;
 }
 
 a:link {
-    color: #1B5098;
+    color: #4A4A4A;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: #1B5098;
+    color: #4A4A4A;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: #1B5098;
+    color: #4A4A4A;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: #000000;
+    color: #4A4A4A;
     background-color: transparent;
     text-decoration: underline;
 }
