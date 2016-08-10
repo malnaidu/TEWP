@@ -6,7 +6,7 @@ export default class Tile extends Component {
   render() {
     return (
         <div className={styles.container}>
-            <div id="leftPanel">
+            <div id="panel">
                 <div id="header" className={styles.header}>
                     {this.props.header}
                 </div>
@@ -25,14 +25,12 @@ export default class Tile extends Component {
 
                 <div id="linkRoute" className={styles.linkRoute}>
                     <Link to={this.props.linkRoute}>
-                        Show All
+                        > Show All
                     </Link>
                 </div>
-            </div>
 
-            <div id="rightPanel">
                 <div id="imageUrl">
-                    <img src={this.props.imageUrl} />
+                    <img src={this.props.imageUrl}/>
                 </div>
             </div>
         </div>

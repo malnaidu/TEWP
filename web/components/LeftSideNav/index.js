@@ -11,60 +11,33 @@ export default class LeftSideNav extends Component {
 	  				<div id="lineBreak" className={styles.lineBreak}/>
 	  			</div>
 
-	  			<div id="subText" className={styles.subText}>
-	  				<a href="#" target="_blank">Computers</a>
-	  				<div id="lineBreak2" className={styles.lineBreak2}/>
-	  			</div>
+	  			<br/>
 
-	  			<div id="linkText" className={styles.linkText}>
-	  				<a href="#" target="_blank">MacBooks</a>
-	  				<div id="lineBreak" className={styles.lineBreak}/>
-	  				<a href="#" target="_blank">PC Laptops</a>
-	  				<div id="lineBreak" className={styles.lineBreak}/>
-	  				<a href="#" target="_blank">Desktops</a>
-	  				<div id="lineBreak" className={styles.lineBreak}/>
+		  		<div id="subText1" className={styles.subText1}>
+		  			<a href="/computers">Computers</a>
+		  			<div id="lineBreak2" className={styles.lineBreak2}/>
+		  		</div>
 
-				</div>
+		  		<br/>
 
-				<div id="subText" className={styles.subText}>
-					<a href="#" target="_blank">Software</a>
+
+				<div id="subText2" className={styles.subText2}>
+					<a href="/software">Software</a>
 					<div id="lineBreak2" className={styles.lineBreak2}/>
 				</div>
 
-				<div id="linkText" className={styles.linkText}>
-					<a href="#" target="_blank">Microsoft</a>
-					<div id="lineBreak" className={styles.lineBreak}/>
-					<a href="#" target="_blank">Adobe</a>
-					<div id="lineBreak" className={styles.lineBreak}/>
-					<a href="#" target="_blank">Apple</a>
-					<div id="lineBreak" className={styles.lineBreak}/>
-				</div>
-
-				<div id="subText" className={styles.subText}>
-					<a href="#" target="_blank">Accessories</a>
+				<br/>
+				
+				<div id="subText3" className={styles.subText3}>
+					<a href="/accessories">Accessories</a>
 					<div id="lineBreak2" className={styles.lineBreak2}/>
 				</div>
 
-				<div id="linkText" className={styles.linkText}>
-						<a href="#" target="_blank">Keyboards</a>
-						<div id="lineBreak" className={styles.lineBreak}/>
-						<a href="#" target="_blank">Mouse</a>
-						<div id="lineBreak" className={styles.lineBreak}/>
-						<a href="#" target="_blank">Headphones</a>
-						<div id="lineBreak" className={styles.lineBreak}/>
-				</div>
+				<br/>
 
-				<div id="subText" className={styles.subText}>
-					<a href="#" target="_blank">Mobile</a>
+				<div id="subText4" className={styles.subText4}>
+					<a href="/mobile">Mobile</a>
 					<div id="lineBreak2" className={styles.lineBreak2}/>
-				</div>
-
-				<div id="linkText" className={styles.linkText}>
-					<a href="#" target="_blank">Mifi</a>
-					<div id="lineBreak" className={styles.lineBreak}/>
-					<a href="#" target="_blank">Tablet</a>
-					<div id="lineBreak" className={styles.lineBreak}/>
-					<a href="#" target="_blank">iPhones</a>
 				</div>
 			</div>
 		);

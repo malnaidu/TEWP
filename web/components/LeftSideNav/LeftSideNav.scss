@@ -1,42 +1,88 @@
 @import "colors";
 
+
 .position {
-    margin-left: 60px;
+    position: fixed;
+    left: 40px;
+    top: 280px;
+    z-index: 1;
 }
 
 .catagory {
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
-.subText {
-	font-size: 16px;
-	font-weight: bold;
-	color: #4A4A4A;
+.subText1 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: solid white;
+    text-align: center;
+    background-color: #0074e4;
+    border-radius: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
-.linkText {
-	font-size: 13px;
-	color: #4A4A4A;
+.subText2 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: solid white;
+    text-align: center;
+    background-color: #0074e4;
+    border-radius: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
+
+.subText3 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: solid white;
+    text-align: center;
+    background-color: #0074e4;
+    border-radius: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.subText4 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: solid white;
+    text-align: center;
+    background-color: #0074e4;
+    border-radius: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 
 a:link {
-    color: #4A4A4A;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: #4A4A4A;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: #4A4A4A;
+    color: #87D300;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: #4A4A4A;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
 }

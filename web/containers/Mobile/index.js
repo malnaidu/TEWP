@@ -10,6 +10,13 @@ export default class Mobile extends Component {
     	<div className={styles.container}>
     		<Navbar/>
 
+        <div className={styles.titleBanner}>
+          <span className={styles.title}>Mobile</span>
+        </div>
+
+        <br/>
+        <br/>
+
     		 <div className={styles.navContainer}>
        			<LeftSideNav>
        			</LeftSideNav>
