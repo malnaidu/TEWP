@@ -28,9 +28,9 @@ export default class Tile extends Component {
                         > Show All
                     </Link>
                 </div>
-
+                <br/>
                 <div id="imageUrl">
-                    <img src={this.props.imageUrl}/>
+                    <img src={this.props.imageUrl} alt="imageUrl" width="200" height="200" align="middle"/>
                 </div>
             </div>
         </div>

@@ -20,32 +20,32 @@ export default class App extends Component {
                <Tile  header="Computers" 
                       subHeader= "Laptops and Desktops"
                       linkRoute="/computers"
-                      imageUrl="">
+                      imageUrl="https://i.imgur.com/1kPEglM.png">
                </Tile>
             </div>
 
             <div className={styles.tileContainer}>
                <Tile  header="Software" 
-                      subHeader= "Adobe, Microsoft, and more."
+                      subHeader= "Adobe, Microsoft, and more"
                       linkRoute="/software"
-                      imageUrl="">
+                      imageUrl="http://i.imgur.com/W26vycT.png">
                </Tile>
             </div>
 
 
             <div className={styles.tileContainer}>
                <Tile  header="Accessories" 
-                      subHeader= "Keyboards, Mice, Headphones, and more"
-                      linkRoute="/software"
-                      imageUrl="">
+                      subHeader= "Keyboards, Mice, and more"
+                      linkRoute="/accessories"
+                      imageUrl="http://i.imgur.com/Tglnzvi.png">
                </Tile>
             </div>
 
             <div className={styles.tileContainer}>
                <Tile  header="Mobile" 
                       subHeader= "Tablets and Mifis"
-                      linkRoute="/software"
-                      imageUrl="">
+                      linkRoute="/mobile"
+                      imageUrl="http://i.imgur.com/ywx7XAw.png?1">
                </Tile>
             </div>
         </div>

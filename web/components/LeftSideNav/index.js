@@ -7,11 +7,8 @@ export default class LeftSideNav extends Component {
 		return (
 			<div id="position" className={styles.position}>
 				<div id="catagory" className={styles.catagory}>
-	  				<a> Products </a>
-	  				<div id="lineBreak" className={styles.lineBreak}/>
+	  				<p> Products </p>
 	  			</div>
-
-	  			<br/>
 
 		  		<div id="subText1" className={styles.subText1}>
 		  			<a href="/computers">Computers</a>

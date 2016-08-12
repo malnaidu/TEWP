@@ -19,12 +19,12 @@ export default class Navbar extends Component {
 
 		<div id="navLinks" className={styles.navLinks}>
 			<span id="greeting" className={styles.greeting}>
-				Welcome, [Username]!
+				<a href="#" className={styles.links}>Welcome, [Username]!</a>
 			</span>
 			<span id="links" className={styles.links}>
-				<a href="userpage" className={styles.links}>Logout</a>
-				<a href="wishlist" className={styles.links}>Wish List</a>
-				<a herf="incart" className={styles.links}>Cart</a>
+				<a href="#" className={styles.links}>Logout</a>
+				<a href="#" className={styles.links}>Wish List</a>
+				<a herf="#" className={styles.links}>Cart</a>
 			</span>
 		</div>
     </div>

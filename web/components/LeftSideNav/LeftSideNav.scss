@@ -11,6 +11,7 @@
 .catagory {
 	font-size: 30px;
 	font-weight: bold;
+    color: #1B5098;
 }
 
 .subText1 {
@@ -18,7 +19,7 @@
     font-weight: lighter;
     color: solid white;
     text-align: center;
-    background-color: #0074e4;
+    background-color: #87d300;
     border-radius: 4px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -31,7 +32,7 @@
     font-weight: lighter;
     color: solid white;
     text-align: center;
-    background-color: #0074e4;
+    background-color: #87d300;
     border-radius: 4px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -44,7 +45,7 @@
     font-weight: lighter;
     color: solid white;
     text-align: center;
-    background-color: #0074e4;
+    background-color: #87d300;
     border-radius: 4px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -57,7 +58,7 @@
     font-weight: lighter;
     color: solid white;
     text-align: center;
-    background-color: #0074e4;
+    background-color: #87d300;
     border-radius: 4px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -65,26 +66,9 @@
     padding-right: 1px;
 }
 
-
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: #87D300;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
+a {
+    color: #0074e4;
+    font-weight: bold;
 }
 
 .lineBreak {

@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import LeftSideNav from '../../components/LeftSideNav';
 import ScrollNav from '../../components/ScrollNav';
+import Other from '../../components/Other';
 
 export default class Software extends Component {
   render() {
@@ -20,9 +21,13 @@ export default class Software extends Component {
 
         	<div className={styles.navContainer}>
         		<LeftSideNav/>
-              <div className="col-md-2"/>
+              <div className="col-md-3"/>
                 <ScrollNav/>
         	</div>
+          <br/>
+          <br/>
+          <br/>
+          <Other/>
           <hr/>
           <Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>
     	</div>
