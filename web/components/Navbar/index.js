@@ -8,12 +8,9 @@ export default class Navbar extends Component {
 		<div id="zillowLogo" className={styles.zillowLogo}>
 			<div id="logoPosition" className={styles.logoPosition}>
 				<a href="/">
-					<img src="https://i.imgur.com/J9DVrvQ.png" alt= "Zillow Group" width="600" height="65"/>
+					<img src="https://i.imgur.com/J9DVrvQ.png" alt= "Zillow Group" width="400" height="45"/>
 				</a>
-			</div>
-
-			<div id="search" className={styles.search}>
-				<input type="text" placeholder="Search" className={styles.searchInput}></input>
+				<br/>
 			</div>
 		</div>
 
@@ -22,8 +19,7 @@ export default class Navbar extends Component {
 				<a href="#" className={styles.links}>Welcome, [Username]!</a>
 			</span>
 			<span id="links" className={styles.links}>
-				<a href="#" className={styles.links}>Logout</a>
-				<a href="#" className={styles.links}>Wish List</a>
+				<a href="https://zillow.service-now.com/zss/home.do" className={styles.links}> ServiceNow</a>
 				<a herf="#" className={styles.links}>Cart</a>
 			</span>
 		</div>

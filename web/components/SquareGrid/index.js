@@ -6,8 +6,8 @@ export default class SquareGrid extends Component {
 	render () {
 		return (
 			<div>
-				<div id="stockImage">
-					<img src={this.props.stockImage}/>
+				<div id="imageUrl">
+					<img src={this.props.imageUrl}/>
 				</div>
 				
 				<div id="headerText" className={styles.headerText}>
@@ -17,13 +17,7 @@ export default class SquareGrid extends Component {
 				<div id="descriptionText" className={styles.descriptionText}>
 					{this.props.descriptionText}
 				</div>
-
 				<br/>
-
-				<div id="price" className={styles.price}>
-					{this.props.price}
-				</div>
-
                 <div id="linkRoute" className={styles.linkRoute}>
 					{this.props.linkRoute}
                 </div>
@@ -33,9 +27,8 @@ export default class SquareGrid extends Component {
 }
 
 SquareGrid.PropTypes = { 
-	stockImage: PropTypes.string,
+	imageUrl: PropTypes.string,
 	headerText: PropTypes.string,
 	descriptionText: PropTypes.string,
-	price: PropTypes.string,
 	linkRoute: PropTypes.string,
 }

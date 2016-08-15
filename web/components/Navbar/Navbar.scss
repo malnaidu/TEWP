@@ -2,7 +2,7 @@
 
 .container {
 	background: white;
-	height: 150px;
+	height: 75px;
 }
 
 .zillowLogo {
@@ -10,32 +10,17 @@
 
 .logoPosition {
 	position: absolute;
-	left: 20px;
-	top: 40px;
+	left: 25px;
+	top: 25px;
 }
 
-.search {
-	position: absolute;
-	top: 55px;
-	left: 700px;
-}
-
-.searchInput {
-	width: 500px;
-	font-size: 25px;
-	font-style: italic;
-	border-radius: 10px;
-	border: 2px solid #74C005;
-	padding: 5px;
-	color: primary(zillowGreen);
-}
 
 .navLinks {
 	position: absolute;
 	color: #0074E4;
 	top: 5px;
 	right: 5px;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .greeting {

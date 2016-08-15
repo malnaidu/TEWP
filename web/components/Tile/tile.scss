@@ -1,38 +1,39 @@
 @import "colors";
 
 .container {
-	width: 240px;
-	height: 350px;
-	border-radius: 10px;
-	background-color: #EEEEEE;
+	width: 250px;
+	height: 255px;
+	background-color: white;
 	padding: 20px;
 	display: flex;
 	justify-content: space-between;
 }
 
+.backgroundColor {
+	background-color: #1B5098;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
 .header {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: lighters;
-	color: #4A4A4A;
+	color: white;
 }
 
 .subHeader {
 	padding-top: 1px;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: lighter;
-	color: #4A4A4A;
+	color: white;
 }
 
 .description {
 	padding-top: 2px;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: lighter;
-	color: #4A4A4A;
+	color: white;
 }
 
-.linkRoute {
-	padding-top:15px;
-	font-size: 16px;
-	color: #4A4A4A;
-	font-weight: bold;
-}
