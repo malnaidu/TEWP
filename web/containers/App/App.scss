@@ -2,29 +2,21 @@
 
  .search {
 	position: absolute;
-	top: 255px;
-	left: 100px;
+	top: 300px;
+	left: 40px;
 	z-index: -1px;
 }
 
 .searchInput {
-	width: 560px;
-	height: 35px;
+	width: 550px;
+	height: 40px;
 	font-size: 18px;
 	font-style: italic;
 	border-radius: 10px;
-	border: 2px solid #D8D8D8;
+	border: 2px solid #87d300;
 	padding: 5px;
 	color: primary(zillowGreen);
 }
-
-.subText {
-	position: absolute;
-	top: 185px;
-	left: 32px;
-	font-size: 20px;
-}
-
 
 .container {
   width: 100%;
@@ -46,17 +38,19 @@
 	display: flex;
 }
 
-.subHeaderText {
-	color: #74C005;
-	font-weight: bold;
-	margin-top: 10px;
-	margin-left: 30px;
+.subHeaderImage{
+	margin-top: 0px;
+	margin-left: -11px;
 	display: flex;
-	font-size: 42.5px;
 }
 
 .imageContainer {
-	margin-top: 0px;
+	margin-top: 25px;
+	margin-left: 90px;
+}
+
+.imagePosition {
+	float: right;
 }
 
 .tileContainer {
@@ -71,4 +65,5 @@
 .footerContainer {
 	margin: 30px;
 }
+
 

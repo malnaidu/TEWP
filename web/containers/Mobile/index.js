@@ -11,7 +11,8 @@ export default class Mobile extends Component {
   	return (
     	<div>
     		<Navbar/>
-
+        <br/>
+        <br/>
         <div className={styles.titleBanner}>
           <span className={styles.title}>Mobile</span>
         </div>
@@ -24,11 +25,9 @@ export default class Mobile extends Component {
             <div className="col-md-3"/>
               <div className="row">
                 <div className="col-md-8">
-                  <SquareGrid stockImage="http://i.imgur.com/Sug0tqK.png"
-                              headerText="Apple iPad Air"
-                              descriptionText="16GB with Wifi, Lighting to USB Cable
-                              USB Power Adapter, with Retina display"
-                              price="$375.00">
+                  <SquareGrid imageUrl=""
+                              headerText=""
+                              descriptionText="">
                   </SquareGrid>
                 </div>
               </div>
@@ -38,10 +37,9 @@ export default class Mobile extends Component {
                 <br/>
                 <br/>
                 <br/>
-                  <SquareGrid stockImage="http://i.imgur.com/ywx7XAw.png?1"
-                              headerText="Verison Mifi"
-                              descriptionText="Connect up to 15 Wifi enabled devices to 4G LTE and 3G."
-                              price="$200.00">
+                  <SquareGrid imageUrl=""
+                              headerText=""
+                              descriptionText="">
                   </SquareGrid>
                 </div>
               </div>

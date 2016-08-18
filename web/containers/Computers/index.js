@@ -16,7 +16,8 @@ export default class Computers extends Component {
   	return (
     	<div>
     		<Navbar/>
-
+            <br/>
+            <br/>
             <div className={styles.titleBanner}>
                 <span className={styles.title}>Computers</span>
             </div>

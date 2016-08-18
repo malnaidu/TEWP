@@ -2,8 +2,15 @@
 
 .container {
 	display: flex;
-	padding-left: 350px;
+	padding-left: 200px;
 	padding-top: 100px;
+}
+
+
+br {
+    content: " " !important;
+    display: block !important;
+    margin:20px;
 }
 
 .titleBanner {

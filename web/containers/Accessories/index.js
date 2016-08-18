@@ -11,7 +11,8 @@ export default class Accessories extends Component {
 		return (
 			<div>
 				<Navbar/>
-
+				<br/>
+				<br/>
 				<div className={styles.titleBanner}>
                 	<span className={styles.title}>Accessories</span>
            	 	</div>
@@ -25,27 +26,21 @@ export default class Accessories extends Component {
 	                        <div className="row">
 	                            <div className="col-md-8"> 
 	                                <SquareGrid stockImage=""
-	                                            headerText="13 inch MacBook Pro with Retina display"
-	                                            descriptionText="2.9 GHz dual-core Intel Core i5 processor 
-	                                                            (Turbo Boost up to 3.1 GHz) 3MB shared L3 
-	                                                            cache 512GB PCle-based flash storage 
-	                                                            Built-in battery (10 hours)"
-	                                            price="$2,023.00">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 
 	                                <SquareGrid stockImage=""
-	                                            headerText="27 inch Dell U2715H LED Backlit LCD Monitor"
-	                                            descriptionText="IPS Technology HDMI / Mini DisplayPort / DisplayPort
-	                                                            2560 x 1440 Resolution"
-	                                            price="$135.63">    
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">    
 	                                </SquareGrid>
 
 	                                <SquareGrid stockImage=""
-	                                            headerText="Apple Mac Mini"
-	                                            descriptionText="2.8GHz dual-core intel Core i5
-	                                                            8GB memory, 1TB Fusion Drive
-	                                                            Intel Iris Graphics, OS X EL Capitan"
-	                                            price="$1,103.00"> 
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price=""> 
 	                                </SquareGrid>
 	                            </div>
 	                        </div>
@@ -53,27 +48,21 @@ export default class Accessories extends Component {
 	                        <div class="row">
 	                            <div className="col-md-8">
 	                                <SquareGrid stockImage=""
-	                                            headerText="15 inch MacBook Pro with Retina display"
-	                                            descriptionText="2.5 GHz quad-core Intel Core i7 procesor
-	                                                            (Turbo  Boost up 3.7 GHz) 6MB shared L3 
-	                                                            cache 128 GB PCle-based flash storage
-	                                                            Built-in battery (10 hours)"
-	                                            price="$2,483.00">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 	      
 	                                <SquareGrid stockImage=""
-	                                            headerText="23 inch Dell P2314H LED Backlit LCD Monitor"
-	                                            descriptionText="1920 x 1080 8ms IPS Technology D-Sub, 
-	                                                            DVI, DisplayPort, USB 2.0"
-	                                            price="$165.00">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 
 	                                <SquareGrid stockImage=""
-	                                            headerText="14 inch Dell Latitude 7000 Series (E7450)"
-	                                            descriptionText="Intel Core TM i5-5300U (Dual Core, 2.3GHz, 3M cache, 15W)
-	                                                            4GB 1600Hz DDR2L Memory, 128GB SATA Class 20 
-	                                                            SSD, Built-in battery (11.5 hours)"
-	                                            price="$1,444.15">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 	                            </div>
 	                        </div>
@@ -81,27 +70,21 @@ export default class Accessories extends Component {
 							<div class="row">
 	                            <div className="col-md-8">
 	                                <SquareGrid stockImage=""
-	                                            headerText="15 inch MacBook Pro with Retina display"
-	                                            descriptionText="2.5 GHz quad-core Intel Core i7 procesor
-	                                                            (Turbo  Boost up 3.7 GHz) 6MB shared L3 
-	                                                            cache 128 GB PCle-based flash storage
-	                                                            Built-in battery (10 hours)"
-	                                            price="$2,483.00">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 	      
 	                                <SquareGrid stockImage=""
-	                                            headerText="23 inch Dell P2314H LED Backlit LCD Monitor"
-	                                            descriptionText="1920 x 1080 8ms IPS Technology D-Sub, 
-	                                                            DVI, DisplayPort, USB 2.0"
-	                                            price="$165.00">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 
 	                                <SquareGrid stockImage=""
-	                                            headerText="14 inch Dell Latitude 7000 Series (E7450)"
-	                                            descriptionText="Intel Core TM i5-5300U (Dual Core, 2.3GHz, 3M cache, 15W)
-	                                                            4GB 1600Hz DDR2L Memory, 128GB SATA Class 20 
-	                                                            SSD, Built-in battery (11.5 hours)"
-	                                            price="$1,444.15">
+	                                            headerText=""
+	                                            descriptionText=""
+	                                            price="">
 	                                </SquareGrid>
 	                            </div>
 	                        </div>

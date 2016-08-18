@@ -11,7 +11,8 @@ export default class Software extends Component {
   	return (
     	<div>
     		<Navbar/>
-
+        <br/>
+        <br/>
         <div className={styles.titleBanner}>
           <span className={styles.title}>Software</span>
         </div>
@@ -22,11 +23,10 @@ export default class Software extends Component {
         	<div className={styles.navContainer}>
         		<LeftSideNav/>
               <div className="col-md-3"/>
-                <ScrollNav/>
-        	</div>
           <br/>
           <br/>
           <br/>
+      </div>          
           <Other/>
           <hr/>
           <Footer bottomPage="Need immediate zHelp Assistance? Call us: 206.470.7007"/>

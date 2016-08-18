@@ -16,11 +16,11 @@ export default class Navbar extends Component {
 
 		<div id="navLinks" className={styles.navLinks}>
 			<span id="greeting" className={styles.greeting}>
-				<a href="#" className={styles.links}>Welcome, [Username]!</a>
+				<a href="/user" className={styles.links}>Welcome, [Username]!</a>
 			</span>
 			<span id="links" className={styles.links}>
 				<a href="https://zillow.service-now.com/zss/home.do" className={styles.links}> ServiceNow</a>
-				<a herf="#" className={styles.links}>Cart</a>
+				<a href="/cart" className={styles.links}>Cart</a>
 			</span>
 		</div>
     </div>
